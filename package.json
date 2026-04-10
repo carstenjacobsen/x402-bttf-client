@@ -1,0 +1,17 @@
+{
+  "name": "x402-joke-client",
+  "version": "1.0.0",
+  "description": "CLI client that pays for jokes using x402 + USDC on Stellar (via OpenZeppelin Facilitator)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "setup": "node setup.js"
+  },
+  "dependencies": {
+    "@x402/fetch": "^2.8.0",
+    "@x402/stellar": "^2.8.0",
+    "dotenv": "^16.4.7",
+    "@stellar/stellar-sdk": "^15.0.1"
+  }
+}
